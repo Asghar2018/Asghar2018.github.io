@@ -1,0 +1,66 @@
+.first img{
+  height: 100px;
+  width: 100px;
+}
+.iceMap {
+  float: right;
+}
+.pink-box{
+  height:450px;
+  width:100%;
+  background-color: pink;
+}
+.pink-box img{
+  height: 170px;
+  border: 4px solid purple;
+}
+.imgs1{
+    width: 28%;
+    height:200px;
+    float: left;
+    margin-left: 4%;
+}
+.imgs1-text{
+  padding-left: 30px;
+  padding-right: 50px;
+  color:white;
+}
+.imgs2-text{
+  padding-left: 50px;
+  padding-top: 50px;
+  color:white;
+}
+.imgs1 p{
+  color:white;
+  margin-top: 0;
+  padding-top: 0px;
+}
+.imgs2{
+    width: 28%;
+    height:200px;
+    float: right;
+    margin-left: 4%;
+    padding-right: 60px;
+}
+.imgs2 p{
+  color:white;
+  margin-top: 0;
+  padding-top: 0px;
+}
+tr .jfk{
+  background-color: red;
+}
+.contact img {
+  height: 40px;
+}
+
+.moreInfo{
+  padding-left: 10px;
+}
+
+
+.navi {
+  padding-top: 10px;
+  padding: 30px;
+  font-size: 20px;
+}

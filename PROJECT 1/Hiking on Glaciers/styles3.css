@@ -1,0 +1,31 @@
+.three-layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.three-layout img{
+  width: 40%;
+  border: 4px solid black;
+  float: left;
+  margin-left: 4%;
+  height:270px;
+    margin:3px;
+}
+.center-text{
+  padding-left: 0px;
+  width: 28%;
+  height:270px;
+  float: left;
+  margin-left: 4%;
+  margin:3px;
+  background-color: beige;
+  border: 5px solid blue;
+  text-align: center;
+}
+.navi {
+  padding-top: 10px;
+  padding: 30px;
+  font-size: 20px;
+}
