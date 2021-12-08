@@ -1,0 +1,433 @@
+
+
+body {
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 5%;
+        background-color: rgb(247, 245, 166);
+}
+
+.pageHeader {
+    display: flex;
+    border: 2px red solid;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.logo {
+    border:  5px solid goldenrod;
+    border-style: groove;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.titlesContainer {
+    align-items: center;
+    padding-left: 7%;
+    
+
+}
+
+
+.title1 {
+    font-family: 'Yellowtail', cursive;
+    color:rgb(6, 65, 11);
+    font-size: 60px;
+    position: relative;
+    animation: move-title1 infinite;
+    animation-duration: 4s;
+
+  }
+  
+@keyframes move-title1 {
+    0% {
+         top:0px;
+    }
+  
+  50%  {
+       top: 50px;
+    }
+  
+  100% {
+       top:0px;
+    }
+}
+
+.title2 {
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+    position: relative;
+    animation: move-title2 infinite;
+    animation-duration: 4s;
+  
+    
+    
+}
+
+@keyframes move-title2 {
+    0% {
+        top:-30px;
+    }
+    50% {
+        top:-100px;
+    }
+  
+    100%  {
+      top: -30px;
+    }
+  
+    
+}
+
+.slideshow {
+    border: solid 1px black;
+    height: 50px;
+    overflow: hidden;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.movingTextslides {
+    width: 300%;
+    height: 55px;
+    align-items: center;
+    animation: slideMove 15s infinite;
+    display: flex;
+    width: calc(100% * 3);
+
+}
+
+.slide {
+    width: 100%;
+    font-family: 'Lucida Sans';
+    border: black 2px solid;
+}
+ .s1 {
+     text-align: center;
+    background-color: rgb(204, 238, 170);
+    
+ }
+ .s2 {
+     text-align: center;
+    background-color: rgb(136, 158, 58);
+ }
+ .s3 {
+     text-align: center;
+     background-color: rgb(146, 189, 66);
+ }
+ 
+ @keyframes slideMove{
+    0%  {margin-left: 0%;}
+    33% {margin-left: -100%;}
+    66% {margin-left: -200%;}
+    100% {margin-left: -300%;}
+    100% {margin-left: 0%;}
+ }
+
+
+.flowerContainer {
+    height:100px;
+    border-top: 2px black solid;
+}
+
+.backImg {
+width:100%;
+height:500px;
+overflow: hidden;
+}
+.backImg > img {
+width: 100%;
+height: 100%;
+}
+
+.flowerDesc {
+    width: 30%;
+    margin-top:0;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.822);
+    margin-top: -30%;
+    margin-left: 5%;
+    padding: 2%;
+    line-height: 2;
+}
+/* End of Flower Section */
+
+
+/* Beginning of block row */
+.block {
+    border: 2px red solid;
+    background-color: rgb(247, 245, 166);
+    position: relative;
+    top: 360px;
+    
+}
+
+.block1Img {
+    float: left; 
+    border: chocolate 2px solid;
+    margin: 3%;
+    position: absolute;
+    width: 450px;
+    height: 80%;
+    background: linear-gradient(to bottom, transparent, hsl(0, 4%, 67%)),
+    url(images/intro_img1.jpg) no-repeat;
+    background-size: 100%; 
+       
+}
+ 
+.text{
+    margin: 5%;
+    border: 2px rgb(62, 136, 62) solid;
+    width: 40%;
+    height: 30%;
+    font-size: 17px;
+    padding: 2%;
+    color: rgb(223, 236, 99);
+    position: absolute;
+    top: 5%;
+}
+
+.blockText {
+    position: relative;
+    left: 55%;
+    width: 400px;
+    height:80%;
+    margin: 3%;
+    font-size: 3vh;
+    background-image: linear-gradient(to left, transparent, rgb(195, 240, 215),rgb(247, 245, 166),rgb(230, 210, 230));
+    overflow: auto;
+    color:rgb(75, 116, 23) ;
+}
+
+.blockText >p {
+    font-size: 17px;
+    padding: 6%;
+    line-height: 2;
+}
+/* End of block row */
+
+.row {
+    height: 500px;
+    top: 300px;
+    border: 2px red solid;;
+    position: relative;
+}
+#gift {
+    padding-bottom: 50%;
+}
+.item {
+    width: 28%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.item > img {
+    width: 90%;
+    height: 50%;
+}
+
+.p2 {
+    font-weight: bold;
+    color: rgb(144, 189, 53); 
+    font-size: 14px;
+}
+
+.p4 {
+    font-size: small;
+}
+
+.item > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.item a:hover {
+    background-color: gray;
+}
+
+footer {
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footerBox {
+    width: 90%;
+    height: 33%;
+    margin-left: 5%;
+}
+
+footer hr {
+    width: 80%;
+}
+
+.footer {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.socialLinks {
+    width: 90%;
+    overflow: hidden;
+}
+
+.socialLinks h4 {
+    width: 100%;
+    height: 15%;
+    text-align: end;
+}
+
+.social-img {
+    width: 100%;
+    padding-left: 70%;
+}
+
+.social-img a{
+    float: left;
+    width: 5%;
+}
+
+.social-img img {
+    width: 100%;
+}
+
+.rights {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.mymodal1, .mymodal2, .mymodal3, .mymodal4, .mymodal5, .mymodal6 {
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: rgba(253, 23, 3, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mymodal1:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mymodal2:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mymodal3:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mymodal4:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mymodal5:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mymodal6:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.msgblock {
+    border: 1px solid black;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+    overflow: hidden;
+}
+
+.msgtop {
+    width: 100%;
+    height: 10%;
+}
+.msgtop p{
+    float: left;
+    margin-left: 10%;
+}
+
+.msgblock hr {
+    width: 80%;
+}
+
+.msgtop a {
+    float: right;
+    padding: 2%;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.msgmiddle {
+    width: 100%;
+    height: 50%;
+}
+
+.middleimg, .middlepara {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.middlepara {
+    margin-top: 5%;
+}
+
+.middleimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.msgbottom {
+    width: 100%;
+    height: 25%;
+    background-color: lightgray;
+    padding: 3%;
+}
+
+.msgbottom p, .msgbottom hr {
+    width: 80%;
+}
+
+.msgbottom hr {
+    margin-top: 0%;
+}
+
+.msgbottom p {
+    padding-left: 10%;
+    margin-bottom: 0%;
+}
+
+.msgbottom a {
+    margin-left: 10%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+
